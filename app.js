@@ -1,4 +1,4 @@
-const http = new easyHTTPv2();
+const http = new easyHTTPv3();
 
 // http.get('https://jsonplaceholder.typicode.com/posts',
 //     function (err, posts) {
@@ -51,8 +51,8 @@ const http = new easyHTTPv2();
 //     }
 // );
 
-// Get Users
 url = 'https://jsonplaceholder.typicode.com/users'
+// // Get Users
 // const users = http.get(url)
 //     .then(data => console.log(data))
 //     .catch(err => console.log(err)
